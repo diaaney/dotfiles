@@ -12,8 +12,10 @@
 All commits must follow the format:
 
 ```
-<emoji> <type>(<optional scope>): <short description>
+<emoji> <type>: <short description>
 ```
+
+**No scope** — never use parentheses like `fix(auth):` or `feat(ui):`. Just `<emoji> <type>: <description>`.
 
 Commit messages must always be written in **English** and in **all lowercase**.
 
@@ -36,9 +38,9 @@ Commit messages must always be written in **English** and in **all lowercase**.
 
 ```
 🎉 feat: generator stream
-🐛 fix(auth): token expiration not handled
-📚 docs: update README with setup instructions
-♻️ refactor(api): extract response handler
+🐛 fix: token expiration not handled
+📚 docs: update readme with setup instructions
+♻️ refactor: extract response handler
 🧪 test: add unit tests for user service
 ```
 
