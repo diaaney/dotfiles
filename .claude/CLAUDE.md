@@ -15,8 +15,6 @@ All commits must follow the format:
 <emoji> <type>: <short description>
 ```
 
-**No scope** — never use parentheses like `fix(auth):` or `feat(ui):`. Just `<emoji> <type>: <description>`.
-
 Commit messages must always be written in **English** and in **all lowercase**.
 
 ### Type and emoji table
@@ -48,7 +46,8 @@ Commit messages must always be written in **English** and in **all lowercase**.
 
 - **Never** add `Co-Authored-By: Claude` or any Claude-related references to commits unless explicitly asked.
 
-- **Never** push without explicit confirmation from Diane.
+- **Never** push without explicit confirmation from Diane. Wait for her to say "pushea" or equivalent before running `git push`.
+- Do commit after each individual change or logical unit of work without waiting for confirmation.
 - **Never** use `--no-verify` to skip hooks.
 - **Never** force push to `main` or `master`.
 - Create new commits instead of amending already published commits.
