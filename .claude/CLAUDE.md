@@ -3,6 +3,7 @@
 ## Git Identity
 
 - GitHub username: **diaaney**
+- Git email: **latte@diane.zip** — use this for all commits. Never use a personal/private email (e.g. Gmail).
 - **NEVER** push, commit, or perform any Git action using Claude's account or identity.
 - Always use Diane's account (diaaney) for any Git operation.
 - Before pushing, confirm that the remote and configured user correspond to diaaney.
