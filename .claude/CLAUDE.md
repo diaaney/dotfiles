@@ -48,7 +48,9 @@ Commit messages must always be written in **English** and in **all lowercase**.
 - **Never** add `Co-Authored-By: Claude` or any Claude-related references to commits unless explicitly asked.
 
 - **Never** push without explicit confirmation from Diane. Wait for her to say "pushea" or equivalent before running `git push`.
-- Do commit after each individual change or logical unit of work without waiting for confirmation.
+- Every user prompt that requests changes must result in at least one commit before the task is considered complete.
+- Make separate commits for distinct changes or logical units of work within the same prompt; there is no limit on the number of commits per prompt.
+- Create these commits without waiting for confirmation.
 - **Never** use `--no-verify` to skip hooks.
 - **Never** force push to `main` or `master`.
 - Create new commits instead of amending already published commits.
