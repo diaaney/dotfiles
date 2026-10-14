@@ -1,0 +1,16 @@
+{
+  "preferredCapabilities": [
+    "frontend design",
+    "workflow helpers",
+    "deployment",
+    "documentation lookup",
+    "code review",
+    "github integration",
+    "database integration",
+    "persistent memory"
+  ],
+  "preferences": {
+    "effortLevel": "high",
+    "autoUpdatesChannel": "latest"
+  }
+}
